@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+
+body
+{
+    background-color: rgb(253, 233, 197);
+}
+/*en tête*/
+.header
+{
+    margin-top: 1%;
+    justify-content: center;
+    border: 8px double rgb(201, 115, 50);
+    border-radius: 4em;
+    display: flex;
+    box-shadow: 10px 15px 10px -5px rgba(0, 0, 0, 0.363);
+}
+
+.nav
+{
+    align-items: center;
+}
+
+.ul
+{
+    display: flex;
+}
+
+.li
+{
+    list-style-type: none;
+    font-size: 30px;
+    padding:20px;
+    text-shadow: 1px 2px black;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+a:link
+{
+    text-decoration: none;
+    color:rgb(201, 115, 50);
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:visited
+{
+    color:rgb(201, 115, 50);
+}
+
+/*body*/
+.corps
+{
+    display: flex;
+}
+.galerie
+{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+.hotel
+{
+    width: 550px;
+    height: 70%;
+    border: 8px double rgb(201, 115, 50);
+    border-radius: 4em;
+}
+.bloctexte
+{
+    border: 5px dashed rgb(201, 115, 50);
+    border-radius: 4em;
+    padding: 2%;
+    margin: 5% 10%;
+}
+.titre
+{
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    color: rgb(201, 115, 50);
+    text-shadow: 1px 2px black;
+}
+.texte
+{
+    text-align: justify;
+    font-size: 24px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+
+body
+{
+    background-color: rgb(253, 233, 197);
+}
+/*en tête*/
+.header
+{
+    margin-top: 1%;
+    justify-content: center;
+    border: 8px double rgb(201, 115, 50);
+    border-radius: 4em;
+    display: flex;
+    box-shadow: 10px 15px 10px -5px rgba(0, 0, 0, 0.363);
+}
+
+.nav
+{
+    align-items: center;
+}
+
+.ul
+{
+    display: flex;
+}
+
+.li
+{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 1px 2px black;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+a:link
+{
+    text-decoration: none;
+    color:rgb(201, 115, 50);
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:visited
+{
+    color:rgb(201, 115, 50);
+}
+/* body */
+@keyframes fondu
+{
+    0% {background-image: url(img/caen-v01.jpg);}
+    25% {background-image: url(img/abbaye.jpg);}
+    50% {background-image: url(img/mémorial.png);}
+    75% {background-image: url(img/Plage.png);}
+    100% {background-image: url(img/caen-v01.jpg);}
+}
+
+.d1
+{
+    width: 750px;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 10px 15px 10px -5px rgba(0, 0, 0, 0.363);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fondu 45s ease-in-out infinite both;
+    border: 8px double rgb(201, 115, 50);
+}
+
+.d1:hover
+{
+    animation-play-state: paused;
+}
+h1
+{
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 1px 2px black;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;    
+    color:rgb(201, 115, 50);
+}
