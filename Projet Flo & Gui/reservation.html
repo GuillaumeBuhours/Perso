@@ -1,33 +1,69 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="reservation.css">
-			<title>Hôtel Unique</title>
-			
-		</head>
-		
-		<body>
-			<header class="header">
-				<img class="logo" src="img/logo.png" alt="">
-				<nav class="nav">	
-					<ul class="ul">
-						<li class="li"><a href="index.html">Accueil</a></li>
-						<li class="li"><a href="brochure.html">Brochure</a></li>
-						<li class="li"><a href="reservation.html">Réservation</a></li>
-						<li class="li"><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>	
-			</header>
-			<br />
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reservation.css" />
+    <title>Hôtel Unique</title>
+  </head>
 
-			<br>
-			<input type="login" name="identifiant" placeholder="identifiant">
-				<input type="password" name="mdp" placeholder="password"><br>
-			<input type="text" name="Nom" placeholder="Nom">
-				<input type="text" name="Prenom" placeholder="Prenom"><br>
-			<input type="date" name="date" placeholder="Début">	<input type="date" name="date" placeholder="fin"><br>
-			<input type="submit" name="valider" placeholder="Valider">
-		</body>
-	</html>
+  <body>
+    <header class="header">
+      <img class="logo" src="img/logo.png" alt="" />
+      <nav class="nav">
+        <ul class="ul">
+          <li class="li"><a href="index.html">Accueil</a></li>
+          <li class="li"><a href="brochure.html">Brochure</a></li>
+          <li class="li"><a href="reservation.html">Réservation</a></li>
+          <li class="li"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+<main>
+	<h1><u>Réserver une chambre simple</u></h1>
+	<div class="img">
+		<img id="chambres" src="img/chambreS.jpg" alt="">
+		<div class="reserv">
+			<input type="text" name="Nom" placeholder="Nom" />
+			<input type="text" name="Prenom" placeholder="Prenom" />
+			<input type="mail" name="mail" placeholder="e-mail" />
+			<br />
+			<select name="reservation" id="reservation">
+				<option value="">--Nombre de Personne--</option>
+				<option value="dog">1</option>
+				<option value="cat">2</option>
+				<option value="hamster">3</option>
+				<option value="parrot">4</option>
+				<option value="spider">5</option>
+			</input>
+			<input type="date" name="date" placeholder="Début" />
+			<input type="date" name="date" placeholder="fin" /><br />
+			<input type="submit" name="valider" placeholder="Valider" />
+		</div>
+		<br>
+		<h1 id="h1b"><u>Réserver une chambre double</u></h1>
+		<div class="img2">
+			<img id="chambred" src="img/chambreD.jpg" alt="">
+			<div class="reserv">
+				<input type="text" name="Nom" placeholder="Nom" />
+				<input type="text" name="Prenom" placeholder="Prenom" />
+				<input type="mail" name="mail" placeholder="e-mail" />
+				<br />
+				<select name="reservation" id="reservation">
+					<option value="">--Nombre de Personne--</option>
+					<option value="dog">1</option>
+					<option value="cat">2</option>
+					<option value="hamster">3</option>
+					<option value="parrot">4</option>
+					<option value="spider">5</option>
+				</input>
+				<input type="date" name="date" placeholder="Début" />
+				<input type="date" name="date" placeholder="fin" /><br />
+				<input type="submit" name="valider" placeholder="Valider" />
+			</div>
+
+
+</main>
+  </body>
+</html>

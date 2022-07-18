@@ -46,3 +46,78 @@ a:visited
 {
     color:rgb(201, 115, 50);
 }
+/*Body*/
+.img
+{
+    height: 300px;
+    width: 100%;
+}
+.reserv
+{
+    position: absolute;
+    padding: 1% 0;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 40%;
+    text-align: center;
+    margin: 6% 30%;
+}
+
+h1
+{
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 1px 2px black;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;    
+    color:rgb(201, 115, 50);
+}
+#chambres
+{
+    border: 8px double rgb(201, 115, 50);
+    border-radius: 4em;
+    position: absolute;
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+}
+
+#h1b
+{
+    margin-top: 400px;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 1px 2px black;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;    
+    color:rgb(201, 115, 50);
+}
+#chambred
+{
+    border: 8px double rgb(201, 115, 50);
+    border-radius: 4em;
+    position: absolute;
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+}
+
+
+/** responsing **/
+
+@media screen and (max-width: 600px) {
+    
+    .li
+    {
+        padding: 10px;
+        font-size: 24px;
+    }
+    .reserv
+    {
+    position: absolute;
+    padding: 1% 0;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 40%;
+    text-align: center;
+    margin: 20% 30%;
+    }
+}

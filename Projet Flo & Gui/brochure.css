@@ -81,3 +81,19 @@ h1
     text-align: center;    
     color:rgb(201, 115, 50);
 }
+
+/** responsing **/
+
+@media screen and (max-width: 600px) {
+    
+    .li
+    {
+        padding: 10px;
+        font-size: 24px;
+    }
+    .d1
+    {
+        width: 550px;
+        height: 294px;
+    }
+}

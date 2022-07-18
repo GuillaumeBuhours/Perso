@@ -119,3 +119,15 @@ a:visited
   {
     animation-play-state: paused;
   }
+
+/** Responsing **/
+
+@media screen and (max-width: 600px) {
+    
+  .li
+  {
+      padding: 10px;
+      font-size: 24px;
+  }
+
+}

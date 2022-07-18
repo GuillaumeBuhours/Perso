@@ -155,7 +155,7 @@ footer
 .conteneur
 {
     display: grid;
-    grid-template-columns: 305px 305px 305px;
+    grid-template-columns: 305px;
     justify-content: center;
     margin-top: 5%;
 }

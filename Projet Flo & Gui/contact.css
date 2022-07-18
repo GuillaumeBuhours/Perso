@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
 
-body
-{
+
+body {
     background-color: rgb(253, 233, 197);
 }
+
 /*en tête*/
-.header
-{
+.header {
     margin-top: 1%;
     justify-content: center;
     border: 8px double rgb(201, 115, 50);
@@ -15,34 +16,92 @@ body
     box-shadow: 10px 15px 10px -5px rgba(0, 0, 0, 0.363);
 }
 
-.nav
-{
+.nav {
     align-items: center;
 }
 
-.ul
-{
+.ul {
     display: flex;
 }
 
-.li
-{
+.li {
     list-style-type: none;
     font-size: 30px;
     padding: 20px;
     text-shadow: 1px 2px black;
     font-family: 'Edu QLD Beginner', cursive;
 }
-a:link
-{
+
+a:link {
     text-decoration: none;
-    color:rgb(201, 115, 50);
+    color: rgb(201, 115, 50);
 }
-a:hover
-{
+
+a:hover {
     text-decoration: underline;
 }
-a:visited
+
+a:visited {
+    color: rgb(201, 115, 50);
+}
+
+/* Body */
+
+h1 
 {
-    color:rgb(201, 115, 50);
+    text-align: center;
+    font-family: 'Edu QLD Beginner';
+    color: rgb(201, 115, 50);
+    text-shadow: 1px 2px black;
+}
+
+#titre
+{
+    margin-top: 3%;
+}
+.contacter {
+    text-align: center;
+    border: 5px solid rgb(201, 115, 50);
+    border-radius: 4em;
+    padding: 2%;
+    margin: 5% 10%;
+}
+
+.Formulaire {
+    text-align: center;
+}
+
+.message {
+    padding: 1% 1%;
+    margin: 2% 35%;
+    border: 5px solid rgb(201, 115, 50);
+
+}
+
+p {
+    font-family: 'Gulzar', serif cursive;
+}
+.logo
+{
+    padding: 1% 1%;
+    width: 30px;
+    height: 30px;
+}
+
+
+/** Responsing **/
+
+@media screen and (max-width: 600px) {
+    
+    .li
+    {
+        padding: 10px;
+        font-size: 24px;
+    }
+    .message {
+        padding: 1% 1%;
+        margin: 2% 15%;
+        border: 5px solid rgb(201, 115, 50);
+    
+    }
 }
