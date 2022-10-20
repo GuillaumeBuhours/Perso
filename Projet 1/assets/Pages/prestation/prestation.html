@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au Palais de FREYA</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="stylesheet" href="./Css/corps.css">
+</head>
+<body>
+
+    <header>  <!-- Ce qui est permanent quelque soit la page -->
+    <div id="banniere"></div>
+    <div id="head">
+        <nav id="menu">
+            <a class="btn" href="/index.html">ACCUEIL</a>
+            <a class="btn" href="prestation.html">PRESTATION</a>
+            <a class="btn" href="../rendezvous/rendezvous.html">RENDEZ-VOUS</a>
+        </nav>
+        <div id="burger">&#9776</div>
+        <div id="menu2">
+            <nav id="menu_deux">
+                <a class="btn2" href="">Accueil</a>
+                <a class="btn2" href="">Prestation</a>
+                <a class="btn2" href="">Rendez-vous</a>
+            </nav>
+        </div>
+    </div>
+    </header> 
+    <div id="corps">
+        <div id="pub1"></div>
+        <div id="pub2"></div>   <!-- Jusqu'ici on ne touche pas -->
+        <div id="presta"></div>
+        <div class="flip-container1" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper1">
+                <div class="front1"></div>
+                <div class="back1"></div>
+            </div>
+        </div>
+        <div class="flip-container2" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper2">
+                <div class="front2"></div>
+                <div class="back2"></div>
+            </div>
+        </div>
+        <div class="flip-container3" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper3">
+                <div class="front3"></div>
+                <div class="back3"></div>
+            </div>
+        </div>
+    </div>
+    <div id="slider">
+        <div class="pic1"></div>
+        <img id="slide" src="./img/slide1.jpg" alt="">
+        <div class="pic2"></div>
+    </div>
+
+    <footer>
+        <hr>
+        <h3>Copyright by Guigui le Codeur fou</h3>
+    </footer>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
