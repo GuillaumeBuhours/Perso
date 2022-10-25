@@ -1,0 +1,126 @@
+#presta{
+    background-image: url(../img/Presta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1/5;
+    grid-column: 3/6;
+    border: 8px double #b6e27d;
+    border-radius: 2rem;
+}
+/*--------------- Card 1 --------------------*/
+.flip-container1{
+    grid-column: 3;
+    grid-row: 6 / 10;
+    perspective: 1000px;
+    border: 8px double #b6e27d;
+    border-radius: 2rem;
+}
+.flip-container1:hover .flipper1{
+    transform: rotateY(-180deg);
+}
+.flip-container1, .front1, .back1{
+    width: 250px;
+    height: 30vh;
+}
+.flipper1{
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front1, .back1{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front1{
+    z-index: 2;
+    transform: rotateY(0deg);
+    background-image: url(../img/PetitChien.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+}
+.back1{
+    background-image: url(../img/PrixPetit.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+    transform: rotateY(-180deg);
+}
+/*--------------- Card 2 --------------------*/
+.flip-container2{
+    grid-column: 4;
+    grid-row: 6 / 10;
+    perspective: 1000px;
+    border: 8px double #b6e27d;
+    border-radius: 2rem;
+}
+.flip-container2:hover .flipper2{
+    transform: rotateY(180deg);
+}
+.flip-container2, .front2, .back2{
+    width: 250px;
+    height: 30vh;
+}
+.flipper2{
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front2, .back2{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front2{
+    z-index: 2;
+    transform: rotateY(0deg);
+    background-image: url(../img/MoyenChien.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+}
+.back2{
+    transform: rotateY(180deg);
+    background-image: url(../img/PrixMoyen.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+}
+/*--------------- Card 3 --------------------*/
+.flip-container3{
+    grid-column: 5;
+    grid-row: 6 / 10;
+    perspective: 1000px;
+    border: 8px double #b6e27d;
+    border-radius: 2rem;
+}
+.flip-container3:hover .flipper3{
+    transform: rotateY(180deg);
+}
+.flip-container3, .front3, .back3{
+    width: 250px;
+    height: 30vh;
+}
+.flipper3{
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front3, .back3{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front3{
+    z-index: 2;
+    transform: rotateY(0deg);
+    background-image: url(../img/GrandChien.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+}
+.back3{
+    transform: rotateY(180deg);
+    background-image: url(../img/PrixGrand.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+}
