@@ -37,7 +37,7 @@ stagiaireFormulaitrePrenom.placeholder = 'Prenom Stagiaire';
 var stagiaireFormalairebutadd = document.createElement('button')
 stagiaireFormalairebutadd.innerText = "Ajouter Stagiaire";
 
-var select = document.createElement('select')
+var select = document.createElement('select');
 
 stagiaireFormalairebutadd.addEventListener("click", ajoutStagiaire);
 
